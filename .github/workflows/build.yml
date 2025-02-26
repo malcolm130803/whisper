@@ -30,7 +30,7 @@ jobs:
       - name: Run SonarQube analysis
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-          SONAR_HOST_URL: "https://e5a6-125-19-120-130.ngrok-free.app"
+          SONAR_HOST_URL: "https://0fc8-125-19-120-130.ngrok-free.app"
         run: |
           /home/runner/work/_temp/sonar-scanner-7.0.2.4839-linux-x64/bin/sonar-scanner \
             -Dsonar.host.url=${SONAR_HOST_URL} \
